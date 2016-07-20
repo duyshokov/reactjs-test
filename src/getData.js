@@ -111,7 +111,7 @@ var getData = function  (sortField, order, first, offset, pFilters) {
   //var filters = pFilters? parseFilters(pFilters): [];
   var filters = pFilters? pFilters: [];
 
-  var tData = require('./data').slice(0, 100);
+  var tData = require('./data').slice(0, 450);
 
   if(filters.length > 0) {
     tData = tData.filter(item => {
